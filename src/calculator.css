@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* h2 {
+    border-top-style: solid;
+} */
+
+.Calculator {
+  box-shadow: 0 0 0 2rem skyblue;
+  border-radius: 12px;
+  text-align: center;
+  margin: auto;
+  margin-top: 10%;
+  width: 70%;
+  padding: 5%;
+}
