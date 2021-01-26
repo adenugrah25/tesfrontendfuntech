@@ -1,4 +1,5 @@
 import React from "react";
+let a = 1
 
 class Calculator extends React.Component {
   constructor(props) {
