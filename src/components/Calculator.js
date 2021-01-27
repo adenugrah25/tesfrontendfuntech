@@ -221,10 +221,10 @@ class Calculator extends React.Component {
             ></input>
           </p>{" "}
           <br></br>
-          <input type="button" onClick={this.calculate} value="+"></input>
-          <input type="button" onClick={this.calculate} value="-"></input>
-          <input type="button" onClick={this.calculate} value="*"></input>
-          <input type="button" onClick={this.calculate} value="/"></input>
+          <input type="button" className="button" onClick={this.calculate} value="+"></input>
+          <input type="button" className="button" onClick={this.calculate} value="-"></input>
+          <input type="button" className="button" onClick={this.calculate} value="*"></input>
+          <input type="button" className="button" onClick={this.calculate} value="/"></input>
           <h2>Hasil : {this.state.hasil}</h2>
         </div>
       </div>
